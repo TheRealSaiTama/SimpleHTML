@@ -26,7 +26,7 @@ I'm currently on a path to becoming a well-rounded fullstack developer. This sim
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the GNU License. See the LICENSE file for details.
 
 I hope you find this CV website informative!
 
