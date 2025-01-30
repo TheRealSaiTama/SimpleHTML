@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
+
+:root {
+  --font-family: "Aldrich", sans-serif;
+}
+
+* {
+  margin: 10px;
+  font-family: var(--font-family);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 20px auto;
+  border: 2px solid black;
+  padding-bottom: 25rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 2px solid black;
+}
+
+.para {
+  color: grey;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header nav a {
+  margin-right: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  border-bottom: none;
+}
+
+.main-sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 2px solid black;
+}
+
+.projects {
+  border: 2px solid black;
+  margin-bottom: 0;
+}
+
+.projects h2 {
+  margin: 0px;
+  border-bottom: 2px solid black;
+}
+
+.list-1 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-1 li {
+  padding: 10px;
+  border-bottom: 2px solid black;
+  text-align: left;
+  margin-left: 0 !important;
+}
+
+.list-1 li:last-child {
+  border-bottom: none;
+}
+
+main > section {
+  padding: 20px;
+}
+
+main > section h2 {
+  margin-bottom: 10px;
+}
+
+main > section ul {
+  padding-left: 20px;
+}
+
+main > section ul li {
+  margin-bottom: 5px;
+}
+
+main > section p {
+  margin-bottom: 10px;
+}
+
+.work {
+  border: 2px solid black;
+  margin-bottom: 0;
+  padding: 7px;
+}
+
+.work a {
+  text-decoration: none;
+}
+
+.profile {
+  border-bottom: 2px solid black;
+  margin: 1rem;
+  text-align: left;
+}
+
+.work.education {
+  padding: 0;
+  padding-left: 5px;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+section:nth-of-type(4) {
+  padding: 20px 0;
+  border-bottom: 2px solid black;
+}
+
+section:nth-of-type(4) > h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+section:nth-of-type(4) > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section:nth-of-type(4) div > p {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  width: 30%;
+}
+
+.flexflex {
+  display: flex;
+  justify-content: space-around;
+}
+.flexflex p {
+  text-align: left;
+  border: 2px solid black;
+  border-radius: 2cap;
+  padding: 20px;
+  width: 30%;
+  margin: 10px;
+}
+
+.flexflex p span {
+  color: grey;
+}
