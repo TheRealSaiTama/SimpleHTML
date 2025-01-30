@@ -37,7 +37,7 @@ The `OnePageCV` directory contains a simple one-page CV template. It provides an
 - **Experience** (if any)
 - **Links to online profiles** (LinkedIn, GitHub, etc.)
 
-This project was inspired by the [Single Page CV Project](https://roadmap.sh/projects/single-page-cv) on roadmap.sh.
+Included projects was inspired by the [Single Page CV Project](https://roadmap.sh/projects/single-page-cv) [BasicHTMLWebSite](https://roadmap.sh/projects/basic-html-website) on roadmap.sh.
 
 #### Features:
 - Simple and clean layout.
