@@ -39,7 +39,7 @@ The `OnePageCV` directory contains a simple one-page CV template. It provides an
 -   **Experience** (if any)
 -   **Links to online profiles** (LinkedIn, GitHub, etc.)
 
-Included projects was inspired by the [Single Page CV Project](https://roadmap.sh/projects/single-page-cv) [BasicHTMLWebSite](https://roadmap.sh/projects/basic-html-website) on roadmap.sh.
+Included projects was inspired by the [Single Page CV Project](https://roadmap.sh/projects/single-page-cv) [BasicHTMLWebSite](https://roadmap.sh/projects/basic-html-website) [PersonalPortfolio](https://roadmap.sh/projects/portfolio-website) on roadmap.sh.
 
 #### Features:
 
@@ -85,7 +85,7 @@ For more details, check out the [BasicHTMLWebSite README](BasicHTMLWebSite/READM
 
 The `PersonalPortfolio` directory contains a personal portfolio website showcasing my skills, experience, and education. It demonstrates my understanding of building a professional website.
 
-This project was inspired by the [Portfolio Website Project](https://roadmap.sh/projects/portfolio-website) on roadmap.sh.
+This project was inspired by the [Portfolio Website Project](PersonalPortfolio) on roadmap.sh.
 
 #### Features:
 
