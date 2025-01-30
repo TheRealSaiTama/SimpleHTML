@@ -52,7 +52,7 @@ Included projects was inspired by the [Single Page CV Project](https://roadmap.s
 -   Navigate to the `OnePageCV` directory.
 -   Open the `index.html` file in your web browser to view the CV.
 
-For more details, check out the [OnePageCV README](OnePageCV/README.md).
+For more details, check out the [OnePageCV README](OnePageCV/singlepagecv.html).
 
 ---
 
