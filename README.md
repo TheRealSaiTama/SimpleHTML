@@ -1,6 +1,6 @@
 # Keshav Kumar Jha's Portfolio
 
-Welcome to my GitHub repository! This repository contains three distinct projects that showcase my journey into web development. All projects are built using **pure HTML and CSS** and serve as foundational steps in my learning process toward becoming a fullstack developer.
+Welcome to my GitHub repository! This repository contains four distinct projects that showcase my journey into web development. All projects are built using **pure HTML and CSS** and serve as foundational steps in my learning process toward becoming a fullstack developer.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -8,6 +8,7 @@ Welcome to my GitHub repository! This repository contains three distinct project
   - [1. OnePageCV](#1-onepagecv)
   - [2. BasicHTMLWebSite](#2-basichtmlwebsite)
   - [3. PersonalPortfolio](#3-personalportfolio)
+  - [4. Changelog](#4-changelog)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [Learning Fullstack Development](#learning-fullstack-development)
@@ -17,11 +18,12 @@ Welcome to my GitHub repository! This repository contains three distinct project
 
 ## Overview
 
-This repository is divided into three main directories, each containing a project:
+This repository is divided into four main directories, each containing a project:
 
-1.  **OnePageCV**: A simple, single-page CV template showcasing my professional background.
-2.  **BasicHTMLWebSite**: A basic website with multiple pages (Home, Articles, Contact) to demonstrate fundamental HTML structure and navigation.
-3.  **PersonalPortfolio**: A personal portfolio website showcasing my skills, experience, and education.
+1. **OnePageCV**: A simple, single-page CV template showcasing my professional background.
+2. **BasicHTMLWebSite**: A basic website with multiple pages (Home, Articles, Contact) to demonstrate fundamental HTML structure and navigation.
+3. **PersonalPortfolio**: A personal portfolio website showcasing my skills, experience, and education.
+4. **Changelog**: A page documenting recent updates and changes made to the projects.
 
 All projects are built using pure HTML and CSS and are intended to serve as learning tools for beginners like myself.
 
@@ -33,26 +35,24 @@ All projects are built using pure HTML and CSS and are intended to serve as lear
 
 The `OnePageCV` directory contains a simple one-page CV template. It provides an overview of my professional background, including:
 
--   **Contact Information**
--   **Skills**
--   **Education**
--   **Experience** (if any)
--   **Links to online profiles** (LinkedIn, GitHub, etc.)
+- **Contact Information**
+- **Skills**
+- **Education**
+- **Experience** (if any)
+- **Links to online profiles** (LinkedIn, GitHub, etc.)
 
-Included projects was inspired by the [Single Page CV Project](https://roadmap.sh/projects/single-page-cv) [BasicHTMLWebSite](https://roadmap.sh/projects/basic-html-website) [PersonalPortfolio](https://roadmap.sh/projects/portfolio-website) on roadmap.sh.
+This project was inspired by the [Single Page CV Project](https://roadmap.sh/projects/single-page-cv) on roadmap.sh.
 
 #### Features:
-
--   Simple and clean layout.
--   Easy to customize with personal information.
--   No external dependencies or frameworks.
+- Simple and clean layout.
+- Easy to customize with personal information.
+- No external dependencies or frameworks.
 
 #### How to Use:
+- Navigate to the `OnePageCV` directory.
+- Open the `singlepagecv.html` file in your web browser to view the CV.
 
--   Navigate to the `OnePageCV` directory.
--   Open the `index.html` file in your web browser to view the CV.
-
-For more details, check out the [OnePageCV README](OnePageCV/singlepagecv.html).
+For more details, check out the [OnePageCV README](OnePageCV/README.md).
 
 ---
 
@@ -60,22 +60,20 @@ For more details, check out the [OnePageCV README](OnePageCV/singlepagecv.html).
 
 The `BasicHTMLWebSite` directory contains a multi-page website built using pure HTML. The website includes the following pages:
 
--   **Home (`index.html`)**: An overview of my work, including projects, education, and reviews.
--   **Articles (`article.html`)**: A sample article page.
--   **Contact (`contact.html`)**: A contact form and additional contact information.
+- **Home (`index.html`)**: An overview of my work, including projects, education, and reviews.
+- **Articles (`article.html`)**: A sample article page.
+- **Contact (`contact.html`)**: A contact form and additional contact information.
 
 This project demonstrates how to create a basic website with multiple pages and proper navigation.
 
 #### Features:
-
--   Multi-page structure with consistent header and footer.
--   Navigation links between pages.
--   Includes sections for projects, work experience, education, and contact information.
+- Multi-page structure with consistent header and footer.
+- Navigation links between pages.
+- Includes sections for projects, work experience, education, and contact information.
 
 #### How to Use:
-
--   Navigate to the `BasicHTMLWebSite` directory.
--   Open the `index.html` file in your web browser to explore the website.
+- Navigate to the `BasicHTMLWebSite` directory.
+- Open the `index.html` file in your web browser to explore the website.
 
 For more details, check out the [BasicHTMLWebSite README](BasicHTMLWebSite/README.md).
 
@@ -85,51 +83,48 @@ For more details, check out the [BasicHTMLWebSite README](BasicHTMLWebSite/READM
 
 The `PersonalPortfolio` directory contains a personal portfolio website showcasing my skills, experience, and education. It demonstrates my understanding of building a professional website.
 
-This project was inspired by the [Portfolio Website Project](PersonalPortfolio) on roadmap.sh.
+This project was inspired by the [Portfolio Website Project](https://roadmap.sh/projects/portfolio-website) on roadmap.sh.
 
 #### Features:
-
--   Responsive design using CSS grid and flexbox.
--   Custom typography using the Aldrich font.
--   Simple and clean navigation menu.
--   Project showcase, education, and work experience sections.
+- Responsive design using CSS grid and flexbox.
+- Custom typography using the Aldrich font.
+- Simple and clean navigation menu.
+- Project showcase, education, and work experience sections.
 
 #### How to Use:
-
--   Navigate to the `PersonalPortfolio` directory.
--   Open the `index.html` file in your web browser to view the portfolio.
+- Navigate to the `PersonalPortfolio` directory.
+- Open the `index.html` file in your web browser to view the portfolio.
 
 For more details, check out the [PersonalPortfolio README](PersonalPortfolio/README.md).
 
 ---
 
-## Getting Started
+### 4. Changelog
 
-No setup or installation is required to view either project. Simply follow these steps:
+The `Changelog` directory contains a webpage that documents recent updates and changes made to the projects. It helps users stay informed about the latest developments.
 
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/TheRealSaiTama/SimpleHTML
-    ```
+This project was inspired by the [Changelog Project](https://roadmap.sh/projects/changelog-component) on roadmap.sh.
 
-2.  Navigate to the desired project directory:
+#### Features:
+- Clean and organized timeline of updates.
+- Detailed entries with dates and descriptions.
+- Button to visit the complete changelog.
 
-    -   For the CV project:
-        ```bash
-        cd OnePageCV
-        ```
-    -   For the basic website:
-        ```bash
-        cd BasicHTMLWebSite
-        ```
-    -   For the Personal Portfolio:
-          ```bash
-          cd PersonalPortfolio
-          ```
+#### How to Use:
+- Navigate to the `Changelog` directory.
+- Open the `index.html` file in your web browser to view the changelog.
 
-3.  Open the `index.html` file in your web browser to view the project.
+For more details, check out the [Changelog README](Changelog/README.md).
 
 ---
+
+## Getting Started
+
+No setup or installation is required to view any of the projects. Simply follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TheRealSaiTama/SimpleHTML.git
 
 ## Contributing
 
