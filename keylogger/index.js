@@ -12,7 +12,7 @@ startBtn.addEventListener("click", () => {
 
 stopBtn.addEventListener("click", () => {
   document.removeEventListener("keydown", handleDown);
-  document.removeEventListener("keydown", handleUp);
+  document.removeEventListener("keyup", handleUp);
   logDiv.textContent = "";
   stateDiv.textContent = " ";
 });
