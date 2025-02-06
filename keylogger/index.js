@@ -5,7 +5,7 @@ const stopBtn = document.getElementById("stop-btn");
 
 startBtn.addEventListener("click", () => {
   document.addEventListener("keydown", handleDown);
-  document.addEventListener("keydown", handleUp);
+  document.addEventListener("keyup", handleUp);
   startBtn.disabled = true;
   stopBtn.disabled = false;
 });
