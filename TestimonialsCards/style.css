@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin: 0.5rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-weight: 100;
+  color: #555;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+/* FIRST */
+
+.first {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.first .msg {
+  position: relative;
+  padding: 1rem;
+  background-color: #111;
+  color: #fff;
+  border-radius: 14px;
+  height: 125px;
+}
+
+.first .msg p:first-child {
+  margin-bottom: 1rem;
+}
+
+.first .msg::after {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 20px;
+  top: 80px;
+  rotate: 45deg;
+  z-index: -1;
+  background-color: #111;
+}
+
+.first .person {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.first .person img {
+  width: 60px;
+  height: 60px;
+  margin-left: 1rem;
+  border-radius: 50%;
+}
+
+/* SECOND */
+
+.second {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  border: #111 2px solid;
+  padding: 1rem;
+  border-radius: 14px;
+}
+
+.second .person {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.second .person img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* THIRD */
+
+.third {
+  grid-column: 1 / span 2;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 10px;
+}
+
+.third img {
+  border-radius: 20px;
+}
+
+.third div {
+  padding: 1rem;
+  background-color: #111;
+  color: #fff;
+  font-size: 1.1rem;
+  border-radius: 20px;
+}
+
+.third div h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.third div h3 {
+  margin-bottom: 2rem;
+}
+
+/* FOURTH */
+
+.fourth {
+  grid-column: 1 / span 2;
+  border: #111 2px solid;
+  padding: 1rem;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.fourth p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.fourth .pics {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fourth .pics img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.fourth .pics .disabled {
+  opacity: 0.5;
+}
