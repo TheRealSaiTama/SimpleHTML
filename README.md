@@ -1,6 +1,6 @@
 # Keshav Kumar Jha's Portfolio
 
-Welcome to my GitHub repository! This repository contains five distinct projects that showcase my journey into web development. All projects are built using **pure HTML, CSS and JavaScript** and serve as foundational steps in my learning process toward becoming a fullstack developer.
+Welcome to my GitHub repository! This repository contains seven distinct projects that showcase my journey into web development. All projects are built using **pure HTML, CSS and JavaScript** and serve as foundational steps in my learning process toward becoming a fullstack developer.
 
 ## Table of Contents
 
@@ -11,6 +11,8 @@ Welcome to my GitHub repository! This repository contains five distinct projects
   - [3. PersonalPortfolio](#3-personalportfolio)
   - [4. Changelog](#4-changelog)
   - [5. Keylogger](#5-keylogger)
+  - [6. RandomUser](#6-randomuser)
+  - [7. TestimonialsCards](#7-testimonialscards)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [Learning Fullstack Development](#learning-fullstack-development)
@@ -20,15 +22,17 @@ Welcome to my GitHub repository! This repository contains five distinct projects
 
 ## Overview
 
-This repository is divided into five main directories, each containing a project:
+This repository is divided into seven main directories, each containing a project:
 
 1.  **OnePageCV**: A simple, single-page CV template showcasing my professional background.
 2.  **BasicHTMLWebSite**: A basic website with multiple pages (Home, Articles, Contact) to demonstrate fundamental HTML structure and navigation.
 3.  **PersonalPortfolio**: A personal portfolio website showcasing my skills, experience, and education.
 4.  **Changelog**: A page documenting recent updates and changes made to the projects.
 5.  **Keylogger**: A simple keylogger application built with HTML, CSS, and JavaScript, demonstrating event handling for keypresses.
+6.  **RandomUser**: A project that fetches and displays random user data from the Random User API in a visually appealing format.
+7.  **TestimonialsCards**: A showcase of various testimonial card designs to present user feedback and reviews engagingly.
 
-All projects are built using pure HTML, CSS, and JavaScript (for the Keylogger) and are intended to serve as learning tools for beginners like myself.
+All projects are built using pure HTML, CSS, and JavaScript (where applicable) and are intended to serve as learning tools for beginners like myself.
 
 ---
 
@@ -55,7 +59,7 @@ This project was inspired by the [Single Page CV Project](https://roadmap.sh/pro
 #### How to Use:
 
 -   Navigate to the `OnePageCV` directory.
--   Open the `singlepagecv.html` file in your web browser to view the CV.
+-   Open the `index.html` file in your web browser to view the CV.
 
 For more details, check out the [OnePageCV README](OnePageCV/README.md).
 
@@ -131,7 +135,7 @@ For more details, check out the [Changelog README](Changelog/README.md).
 
 ### 5. Keylogger
 
-The `keylogger` directory contains a simple keylogger application.  It demonstrates how to capture and display keypress events using JavaScript.
+The `Keylogger` directory contains a simple keylogger application. It demonstrates how to capture and display keypress events using JavaScript.
 
 #### Features:
 
@@ -141,11 +145,54 @@ The `keylogger` directory contains a simple keylogger application.  It demonstra
 
 #### How to Use:
 
-- Navigate to the `keylogger` directory.
-- Open the `index.html` file in your web browser.
-- Click the "Start Logging Keypresses" button to begin, and then press keys to see the output.
+-   Navigate to the `Keylogger` directory.
+-   Open the `index.html` file in your web browser.
+-   Click the "Start Logging Keypresses" button to begin, and then press keys to see the output.
 
-For more details, including *important notes about a necessary code correction and security considerations*, check out the [Keylogger README](keylogger/README.md).
+For more details, including *important notes about a necessary code correction and security considerations*, check out the [Keylogger README](Keylogger/README.md).
+
+---
+
+### 6. RandomUser
+
+The `RandomUser` directory contains a project that fetches and displays random user data from the [Random User API](https://randomuser.me/api/) in a visually appealing format. It provides a simple and engaging way to explore random user profiles.
+
+#### Features:
+
+-   Neumorphic Design: A modern and visually appealing design using soft UI elements.
+-   Random User Data: Fetches user data including name, location, phone number, and email from the Random User API.
+-   Dynamic Updates: Updates the user information and profile picture dynamically upon clicking the "Random person" button.
+-   Clean Layout: Easy-to-read layout that presents user information clearly.
+
+#### How to Use:
+
+-   Navigate to the `RandomUser` directory.
+-   Open the `index.html` file in your web browser.
+-   Click the "Random person" button to fetch and display a new random user.
+
+For more details, check out the [RandomUser README](RandomUser/README.md).
+
+---
+
+### 7. TestimonialsCards
+
+The `TestimonialsCards` directory showcases a collection of testimonial cards, designed to present user feedback and reviews in an engaging and visually appealing manner. The cards feature different layouts and styles, demonstrating various ways to display testimonials on a website.
+
+This project was inspired by the [Testimonials Cards](https://roadmap.sh/projects/testimonial-cards) on roadmap.sh.
+
+#### Features:
+
+-   Diverse Card Layouts: Includes different layouts to showcase testimonials in various formats.
+-   Responsive Design: Adapts to different screen sizes for optimal viewing experience.
+-   Styling with CSS: Uses custom CSS styles to create a visually appealing design.
+-   Font Awesome Icons: Utilizes Font Awesome for icons (e.g., in the fourth testimonial card).
+
+#### How to Use:
+
+-   Navigate to the `TestimonialsCards` directory.
+-   Open the `index.html` file in your web browser to view the testimonial cards.
+
+For more details, check out the [TestimonialsCards README](TestimonialsCards/README.md).
 
 ---
 
@@ -154,10 +201,13 @@ For more details, including *important notes about a necessary code correction a
 No setup or installation is required to view any of the projects. Simply follow these steps:
 
 1.  Clone the repository:
+
     ```bash
     git clone https://github.com/TheRealSaiTama/SimpleHTML.git
     ```
+
 2.  Navigate to the directory of the project you want to view.
+
 3.  Open the `index.html` file in your web browser.
 
 ## Contributing
