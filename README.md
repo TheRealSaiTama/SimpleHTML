@@ -1,6 +1,6 @@
 # Keshav Kumar Jha's Portfolio
 
-Welcome to my GitHub repository! This repository contains seven distinct projects that showcase my journey into web development. All projects are built using **pure HTML, CSS and JavaScript** and serve as foundational steps in my learning process toward becoming a fullstack developer.
+Welcome to my GitHub repository! This repository contains eight distinct projects that showcase my journey into web development. All projects are built using **pure HTML, CSS and JavaScript** and serve as foundational steps in my learning process toward becoming a fullstack developer.
 
 ## Table of Contents
 
@@ -13,6 +13,7 @@ Welcome to my GitHub repository! This repository contains seven distinct project
   - [5. Keylogger](#5-keylogger)
   - [6. RandomUser](#6-randomuser)
   - [7. TestimonialsCards](#7-testimonialscards)
+  - [8. DatePicker UI](#8-datepicker-ui)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [Learning Fullstack Development](#learning-fullstack-development)
@@ -22,7 +23,7 @@ Welcome to my GitHub repository! This repository contains seven distinct project
 
 ## Overview
 
-This repository is divided into seven main directories, each containing a project:
+This repository is divided into eight main directories, each containing a project:
 
 1.  **OnePageCV**: A simple, single-page CV template showcasing my professional background.
 2.  **BasicHTMLWebSite**: A basic website with multiple pages (Home, Articles, Contact) to demonstrate fundamental HTML structure and navigation.
@@ -31,6 +32,7 @@ This repository is divided into seven main directories, each containing a projec
 5.  **Keylogger**: A simple keylogger application built with HTML, CSS, and JavaScript, demonstrating event handling for keypresses.
 6.  **RandomUser**: A project that fetches and displays random user data from the Random User API in a visually appealing format.
 7.  **TestimonialsCards**: A showcase of various testimonial card designs to present user feedback and reviews engagingly.
+8.  **DatePicker UI**: A simple DatePicker UI implemented using HTML, Tailwind CSS, and Font Awesome, providing a basic interface for selecting a date.
 
 All projects are built using pure HTML, CSS, and JavaScript (where applicable) and are intended to serve as learning tools for beginners like myself.
 
@@ -178,8 +180,6 @@ For more details, check out the [RandomUser README](RandomUser/README.md).
 
 The `TestimonialsCards` directory showcases a collection of testimonial cards, designed to present user feedback and reviews in an engaging and visually appealing manner. The cards feature different layouts and styles, demonstrating various ways to display testimonials on a website.
 
-This project was inspired by the [Testimonials Cards](https://roadmap.sh/projects/testimonial-cards) on roadmap.sh.
-
 #### Features:
 
 -   Diverse Card Layouts: Includes different layouts to showcase testimonials in various formats.
@@ -193,6 +193,28 @@ This project was inspired by the [Testimonials Cards](https://roadmap.sh/project
 -   Open the `index.html` file in your web browser to view the testimonial cards.
 
 For more details, check out the [TestimonialsCards README](TestimonialsCards/README.md).
+
+---
+
+### 8. DatePicker UI
+
+The `DatePicker-UI` directory contains a simple DatePicker UI implemented using HTML, Tailwind CSS, and Font Awesome, providing a basic interface for selecting a date.
+
+This project was inspired by the [DatePicker UI Project](https://roadmap.sh/projects/datepicker-ui) on roadmap.sh.
+
+#### Features:
+
+-   Basic Date Selection: A simple calendar interface for selecting dates.
+-   Navigation: Buttons to navigate between months.
+-   Tailwind CSS: Utilizes Tailwind CSS for styling.
+-   Font Awesome Icons: Utilizes Font Awesome for calendar icons.
+
+#### How to Use:
+
+-   Navigate to the `DatePicker-UI` directory.
+-   Open the `index.html` file in your web browser to view the DatePicker UI.
+
+For more details, check out the [DatePicker-UI README](DatePicker-UI/README.md).
 
 ---
 
