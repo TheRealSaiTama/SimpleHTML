@@ -44,4 +44,4 @@ This project consists of the following files:
 
 ## License
 
-This project is licensed under the [Specify License Here, e.g., PUBLIC License] - see the `LICENSE` file in the main repository for details.
+This project is licensed under PUBLIC LICENSE see the `LICENSE` file in the main repository for details.
