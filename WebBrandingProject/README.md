@@ -1,10 +1,10 @@
-# 🎨 Web Branding Pro
+# 🎨 Web Branding Project
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://semver.org)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/yourusername/web-branding-pro)
 
-> Professional web branding solutions for modern businesses
+> Professional web branding project
 
 ## 📋 Overview
 
@@ -35,26 +35,9 @@ npm install
 npm run dev
 ```
 
-## 💻 Usage
-
-```javascript
-// Import the library
-import WebBranding from 'WebBrandingPro';
-
-// Initialize with your configuration
-const branding = new WebBranding({
-projectName: 'Your Brand',
-theme: 'modern',
-colorScheme: 'custom'
-});
-
-// Generate brand assets
-branding.generateAssets();
-```
-
 ## 🤝 Contributing
 
-We welcome contributions to Web Branding Pro! Here's how you can help:
+We welcome contributions to Web Branding Project! Here's how you can help:
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
