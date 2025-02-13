@@ -23,10 +23,10 @@ Web Branding Pro is a comprehensive toolkit designed to help businesses establis
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/web-branding-pro.git
+git clone [https://github.com/yourusername/web-branding-pro.git](https://github.com/TheRealSaiTama/SimpleHTML/tree/main/AccessibleFormsUI)
 
 # Navigate to the project directory
-cd web-branding-pro
+cd WebBrandingProject
 
 # Install dependencies
 npm install
@@ -39,7 +39,7 @@ npm run dev
 
 ```javascript
 // Import the library
-import WebBranding from 'web-branding-pro';
+import WebBranding from 'WebBrandingPro';
 
 // Initialize with your configuration
 const branding = new WebBranding({
@@ -68,5 +68,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ❤️ by [Your Team Name]
+Made with ❤️ by TheRealSaiTama
 
