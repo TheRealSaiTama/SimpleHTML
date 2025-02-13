@@ -23,7 +23,7 @@ Web Branding Pro is a comprehensive toolkit designed to help businesses establis
 
 ```bash
 # Clone the repository
-git clone [https://github.com/yourusername/web-branding-pro.git](https://github.com/TheRealSaiTama/SimpleHTML/tree/main/AccessibleFormsUI)
+git clone https://github.com/TheRealSaiTama/SimpleHTML/tree/main/AccessibleFormsUI
 
 # Navigate to the project directory
 cd WebBrandingProject
