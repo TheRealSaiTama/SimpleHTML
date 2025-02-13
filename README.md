@@ -15,6 +15,7 @@ Welcome to my GitHub repository! This repository contains a collection of divers
   - [7. TestimonialsCards](#7-testimonialscards)
   - [8. DatePicker UI](#8-datepicker-ui)
   - [9. Accessible Forms UI](#9-accessible-forms-ui)
+  - [10. Web Branding Project](#10-web-branding-project)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [My Fullstack Development Journey](#my-fullstack-development-journey)
@@ -35,6 +36,7 @@ This repository is organized into several project directories, each demonstratin
 7.  **TestimonialsCards**: A collection of engaging testimonial card designs.
 8.  **DatePicker UI**: A simple date picker UI built with Tailwind CSS.
 9.  **Accessible Forms UI**: Demonstrates accessible form design principles using HTML and Tailwind CSS.
+10. **Web Branding Project**: A modern web page designed to represent a web agency, built with HTML and Tailwind CSS.
 
 All projects are built with pure HTML, CSS, and JavaScript (where applicable) and serve as learning resources for aspiring web developers.
 
@@ -126,6 +128,15 @@ All projects are built with pure HTML, CSS, and JavaScript (where applicable) an
 *   **Inspiration**: [Accessible Forms UI Project](https://roadmap.sh/projects/accessible-form-ui) on roadmap.sh
 *   **How to Use**: Navigate to the `AccessibleFormsUI` directory and open `index.html`.
 *   **Learn More**: [AccessibleFormsUI README](AccessibleFormsUI/README.md)
+
+---
+
+### 10. Web Branding Project
+
+*   **Description**: A modern web page designed to represent a web agency, built with HTML and Tailwind CSS.
+*   **Key Features**: Responsive layout, modern design, skills section, services section, recent project display.
+*   **How to Use**: Navigate to the `WebBrandingProject` directory and open `index.html`.
+*   **Learn More**: [WebBrandingProject README](WebBrandingProject/README.md)
 
 ---
 
