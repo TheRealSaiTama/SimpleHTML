@@ -16,9 +16,6 @@ The **Form Validation** project is a simple yet effective demonstration of clien
 - **Real-Time Error Messages**: Displays error messages next to each input field in real-time.
 - **Stylish UI**: A clean and user-friendly interface with responsive design.
 
-## Live Demo
-
-You can view a live demo of the project [here](#).
 
 ## Screenshots
 
