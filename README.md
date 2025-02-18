@@ -15,7 +15,8 @@ Welcome to my GitHub repository! This repository contains a collection of divers
   - [8. DatePicker UI](#8-datepicker-ui)
   - [9. Accessible Forms UI](#9-accessible-forms-ui)
   - [10. Web Branding Project](#10-web-branding-project)
-  - [11. FormValidation](#11-formvalidation) <!-- New Project -->
+  - [11. FormValidation](#11-formvalidation)
+  - [12. CalculatorApp](#12-calculatorapp) <!-- New Project -->
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [My Fullstack Development Journey](#my-fullstack-development-journey)
@@ -36,7 +37,8 @@ This repository is organized into several project directories, each demonstratin
 8. **DatePicker UI**: A simple date picker UI built with Tailwind CSS.
 9. **Accessible Forms UI**: Demonstrates accessible form design principles using HTML and Tailwind CSS.
 10. **Web Branding Project**: A modern web page designed to represent a web agency, built with HTML and Tailwind CSS.
-11. **FormValidation**: A client-side form validation project ensuring proper input before submission. <!-- New Project -->
+11. **FormValidation**: A client-side form validation project ensuring proper input before submission.
+12. **CalculatorApp**: A functional web-based calculator for performing basic arithmetic operations. <!-- New Project -->
 
 All projects are built with pure HTML, CSS, and JavaScript (where applicable) and serve as learning resources for aspiring web developers.
 
@@ -129,7 +131,7 @@ All projects are built with pure HTML, CSS, and JavaScript (where applicable) an
 
 ---
 
-### 11. FormValidation <!-- New Project -->
+### 11. FormValidation
 *   **Description**: A client-side form validation project ensuring proper input before submission.
 *   **Key Features**: 
     - Username validation (non-blank).
@@ -140,6 +142,21 @@ All projects are built with pure HTML, CSS, and JavaScript (where applicable) an
 *   **Technologies Used**: HTML, CSS, JavaScript.
 *   **How to Use**: Navigate to the `FormValidation` directory and open `index.html`.
 *   **Learn More**: [FormValidation README](FormValidation/README.md)
+
+---
+
+### 12. CalculatorApp <!-- New Project -->
+*   **Description**: A functional web-based calculator for performing basic arithmetic operations.
+*   **Key Features**:
+    - Perform addition, subtraction, multiplication, and division.
+    - Clear input with "C" button.
+    - Delete last character with "<" button.
+    - Calculate percentages with "%" button.
+    - Evaluate expressions with "=" button.
+    - Stylish and responsive design.
+*   **Technologies Used**: HTML, CSS, JavaScript.
+*   **How to Use**: Navigate to the `CalculatorApp` directory and open `index.html`.
+*   **Learn More**: [CalculatorApp README](CalculatorApp/README.md)
 
 ---
 
