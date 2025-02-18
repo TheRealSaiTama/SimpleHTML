@@ -16,7 +16,7 @@ Welcome to my GitHub repository! This repository contains a collection of divers
   - [9. Accessible Forms UI](#9-accessible-forms-ui)
   - [10. Web Branding Project](#10-web-branding-project)
   - [11. FormValidation](#11-formvalidation)
-  - [12. CalculatorApp](#12-calculatorapp) <!-- New Project -->
+  - [12. CalculatorApp](#12-calculatorapp)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [My Fullstack Development Journey](#my-fullstack-development-journey)
