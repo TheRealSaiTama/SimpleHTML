@@ -25,6 +25,7 @@ Welcome to my GitHub repository! This repository contains a collection of divers
   - [15. ExpenseTracker](#15-expensetracker)
   - [16. GitHubProfileViewer](#16-githubprofileviewer)
   - [17. ImageSlider](#17-imageslider)
+  - [18. ImageGridLayout](#18-imagegridlayout) <!-- New Project -->
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [My Fullstack Development Journey](#my-fullstack-development-journey)
@@ -53,6 +54,7 @@ This repository is organized into several project directories, each demonstratin
 15. **ExpenseTracker**: An application to track and categorize expenses.
 16. **GitHubProfileViewer**: A tool to view GitHub profile information.
 17. **ImageSlider**: A slider component to display multiple images interactively.
+18. **ImageGridLayout**: A project to practice CSS Grid Layout, creating responsive and visually appealing image grids. <!-- New Project -->
 
 All projects are built with pure HTML, CSS, and JavaScript (where applicable) and serve as learning resources for aspiring web developers.
 
@@ -220,6 +222,15 @@ All projects are built with pure HTML, CSS, and JavaScript (where applicable) an
 
 ---
 
+### 18. ImageGridLayout <!-- New Project -->
+*   **Description**: A project to practice CSS Grid Layout, creating responsive and visually appealing image grids.
+*   **Key Features**: Responsive design, customizable layout, stylish UI.
+*   **Inspiration**: [Image Grid Project](https://roadmap.sh/projects/image-grid) on roadmap.sh
+*   **How to Use**: Navigate to the `ImageGridLayout` directory and open `index.html`.
+*   **Learn More**: [ImageGridLayout README](ImageGridLayout/README.md)
+
+---
+
 ## 🚀 Getting Started
 
 Explore these projects by following these simple steps:
@@ -242,8 +253,9 @@ Stay tuned for more updates as I continue to grow my skills!
 
 ## 📜 License
 
-This project is licensed under the PUBLIC License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
 I hope you find these projects insightful and helpful in your learning endeavors! ✨
+
