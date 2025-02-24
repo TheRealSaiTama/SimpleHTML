@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Retreival</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 15px;
+            margin-right: 5px;
+        }
+        #output {
+            margin-top: 20px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Local Storage Example</h1>
+        <input type="text" id="textInput" placeholder="Enter Text.....">
+        <button onclick="saveText()">Save</button>
+        <button onclick="retrieveText()">Retrieve</button>
+        <div id="output"></div>
+    </div>
+
+    <script>
+        function saveText(){
+            const textInput = document.getElementById('textInput').value;
+            localStorage.setItem('text', textInput);
+
+            document.getElementById('textInput').value = '';
+        }
+
+        function retrieveText(){
+            const retrievedText = localStorage.getItem('text');
+            document.getElementById('output').innerText = retrievedText ? retrievedText : 'No text found';
+        }
+    </script>
+</body>
+</html>
