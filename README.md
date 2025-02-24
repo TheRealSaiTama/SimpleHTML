@@ -1,5 +1,8 @@
 # ✨ Keshav Kumar Jha's Portfolio ✨
 
+![GitHub stars](https://img.shields.io/github/stars/TheRealSaiTama/SimpleHTML?style=social)
+![GitHub forks](https://img.shields.io/github/forks/TheRealSaiTama/SimpleHTML?style=social)
+
 Welcome to my GitHub repository! This repository contains a collection of diverse projects that showcase my journey into web development. From foundational HTML & CSS to interactive JavaScript applications, these projects represent key steps in my path toward becoming a full-stack developer.
 
 ## 🚀 Table of Contents
@@ -17,12 +20,18 @@ Welcome to my GitHub repository! This repository contains a collection of divers
   - [10. Web Branding Project](#10-web-branding-project)
   - [11. FormValidation](#11-formvalidation)
   - [12. CalculatorApp](#12-calculatorapp)
+  - [13. CountDown](#13-countdown)
+  - [14. DataRetrieval](#14-dataretrieval)
+  - [15. ExpenseTracker](#15-expensetracker)
+  - [16. GitHubProfileViewer](#16-githubprofileviewer)
+  - [17. ImageSlider](#17-imageslider)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [My Fullstack Development Journey](#my-fullstack-development-journey)
 - [License](#license)
 
 ---
+
 ## 📝 Overview
 
 This repository is organized into several project directories, each demonstrating different skills and concepts:
@@ -38,11 +47,17 @@ This repository is organized into several project directories, each demonstratin
 9. **Accessible Forms UI**: Demonstrates accessible form design principles using HTML and Tailwind CSS.
 10. **Web Branding Project**: A modern web page designed to represent a web agency, built with HTML and Tailwind CSS.
 11. **FormValidation**: A client-side form validation project ensuring proper input before submission.
-12. **CalculatorApp**: A functional web-based calculator for performing basic arithmetic operations. <!-- New Project -->
+12. **CalculatorApp**: A functional web-based calculator for performing basic arithmetic operations.
+13. **CountDown**: A real-time countdown timer displaying the time remaining until a specified future date.
+14. **DataRetrieval**: A simple example of using local storage in web applications.
+15. **ExpenseTracker**: An application to track and categorize expenses.
+16. **GitHubProfileViewer**: A tool to view GitHub profile information.
+17. **ImageSlider**: A slider component to display multiple images interactively.
 
 All projects are built with pure HTML, CSS, and JavaScript (where applicable) and serve as learning resources for aspiring web developers.
 
 ---
+
 ## 💻 Projects Showcase
 
 ### 1. OnePageCV
@@ -145,7 +160,7 @@ All projects are built with pure HTML, CSS, and JavaScript (where applicable) an
 
 ---
 
-### 12. CalculatorApp <!-- New Project -->
+### 12. CalculatorApp
 *   **Description**: A functional web-based calculator for performing basic arithmetic operations.
 *   **Key Features**:
     - Perform addition, subtraction, multiplication, and division.
@@ -160,6 +175,51 @@ All projects are built with pure HTML, CSS, and JavaScript (where applicable) an
 
 ---
 
+### 13. CountDown
+*   **Description**: A real-time countdown timer displaying the time remaining until a specified future date.
+*   **Key Features**: Displays days, hours, minutes, and seconds; customizable target date.
+*   **Technologies Used**: HTML, CSS, JavaScript.
+*   **How to Use**: Navigate to the `CountDown` directory and open `index.html`.
+*   **Learn More**: [CountDown README](CountDown/README.md)
+
+---
+
+### 14. DataRetrieval
+*   **Description**: A simple example of using local storage in web applications.
+*   **Key Features**: Save text data locally and retrieve it later.
+*   **Technologies Used**: HTML, CSS, JavaScript.
+*   **How to Use**: Navigate to the `DataRetrieval` directory and open `index.html`.
+*   **Learn More**: [DataRetrieval README](DataRetrieval/README.md)
+
+---
+
+### 15. ExpenseTracker
+*   **Description**: An application to track and categorize expenses.
+*   **Key Features**: Add, categorize, and view expenses in a tabular format.
+*   **Technologies Used**: HTML, CSS, JavaScript.
+*   **How to Use**: Navigate to the `ExpenseTracker` directory and open `index.html`.
+*   **Learn More**: [ExpenseTracker README](ExpenseTracker/README.md)
+
+---
+
+### 16. GitHubProfileViewer
+*   **Description**: A tool to view GitHub profile information.
+*   **Key Features**: Fetches and displays user's name, avatar, followers count, following count, and public repositories count.
+*   **Technologies Used**: HTML, CSS, JavaScript.
+*   **How to Use**: Navigate to the `GitHubProfileViewer` directory and open `index.html`.
+*   **Learn More**: [GitHubProfileViewer README](GitHubProfileViewer/README.md)
+
+---
+
+### 17. ImageSlider
+*   **Description**: A slider component to display multiple images interactively.
+*   **Key Features**: Smooth navigation, responsive design, customizable images.
+*   **Technologies Used**: HTML, CSS, JavaScript.
+*   **How to Use**: Navigate to the `ImageSlider` directory and open `index.html`.
+*   **Learn More**: [ImageSlider README](ImageSlider/README.md)
+
+---
+
 ## 🚀 Getting Started
 
 Explore these projects by following these simple steps:
@@ -170,21 +230,15 @@ Explore these projects by following these simple steps:
 2. Navigate to the directory of the project you want to explore.
 3. Open the `index.html` file in your web browser.
 
----
-
 ## 🤝 Contributing
 
 These projects are primarily for my personal learning journey. However, feel free to fork the repository and experiment with the code. If you discover any issues or have suggestions, please open an issue.
-
----
 
 ## 👨‍💻 My Fullstack Development Journey
 
 These projects represent some of my first steps toward becoming a full-stack developer. In the future, I plan to expand on this foundation by incorporating backend functionalities and advanced features with frameworks and libraries like React, Node.js, and Express.
 
 Stay tuned for more updates as I continue to grow my skills!
-
----
 
 ## 📜 License
 
