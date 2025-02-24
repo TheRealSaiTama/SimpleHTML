@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridImages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjusted to 3 columns */
+    grid-gap: 10px; /* Adjusted gap for better spacing */
+    width: 100%;
+    max-width: 1200px; /* Limit the maximum width */
+}
+
+.gridImages img {
+    width: 100%; /* Make images take full width of their grid cell */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+    border-radius: 8px;
+}
