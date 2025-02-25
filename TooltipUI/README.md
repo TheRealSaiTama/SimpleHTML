@@ -14,7 +14,6 @@ Currently, there's no live - hosted version available. However, you can easily r
 
 ## 📷 Screenshots
 ![Tooltip UI in Action](screenshot.png)
-*Replace this with an actual screenshot of your Tooltip UI. This is where you can showcase how the tooltips look when active and inactive.*
 
 ## 🛠️ Installation
 1. **Clone the Repository**:
