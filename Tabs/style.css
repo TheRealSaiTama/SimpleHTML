@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    background: #eee;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div ul li:hover {
+    background: #ddd;
+}
+
+div ul li.active {
+    background: #ccc;
+}
+
+div ul {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    margin: 20px;
+}
+
+div ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+div ul li a:hover{
+    text-decoration: underline;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
