@@ -18,7 +18,7 @@ This repository is a curated collection of web development projects that showcas
 
 | Project | Description | Skills Demonstrated |
 |---------|-------------|---------------------|
-| **[Tabs Component](#20-tabs-component)** | A lightweight, customizable tabs interface with a clean, minimalist design | Vanilla JS, CSS Transitions, DOM Manipulation |
+| **[Tabs Component](#20-tabs-component)** | A lightweight, customizable tabs interface with a clean, minimalist design | JS, CSS Transitions, DOM Manipulation |
 | **[Tooltip UI](#19-tooltip-ui)** | A sleek implementation of tooltips with smooth transitions | CSS Animations, Responsive Design |
 | **[GitHub Profile Viewer](#16-githubprofileviewer)** | A tool to visualize GitHub profile statistics | API Integration, Async JavaScript |
 | **[Expense Tracker](#15-expensetracker)** | An application to track and categorize expenses | State Management, Data Visualization |
