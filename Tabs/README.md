@@ -2,7 +2,7 @@
 
 A lightweight, customizable tabs interface built with vanilla JavaScript, HTML, and CSS.
 
-![Tabs Component](https://via.placeholder.com/800x400?text=Tabs+Component)
+![Tabs Component](screenshot.png)
 
 ## Features
 
