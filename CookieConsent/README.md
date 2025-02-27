@@ -3,7 +3,7 @@
 ![Cookie Consent Banner](https://img.shields.io/badge/Cookie-Consent-blue?style=for-the-badge&logo=javascript) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 <div align="center">
-    <img src="https://user-images.githubusercontent.com/43776531/123564356-58507d80-d7b5-11eb-9a96-f4eaef297bc5.gif" alt="Cookie Consent Demo" width="600px" />
+    <img src="screenshot.png" alt="Cookie Consent Demo" width="600px" />
     <p><em>Cookie consent popup in action</em></p>
 </div>
 
