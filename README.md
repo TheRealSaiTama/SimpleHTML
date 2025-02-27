@@ -35,6 +35,7 @@ This repository is a curated collection of web development projects that showcas
     - 🔄 Remembers user choice for 30 days
     - 📱 Mobile-friendly interface
     - 🎭 Font Awesome icons integration
+*   **Inspiration**: [Cookie Consent Project](https://roadmap.sh/projects/cookie-consent) on roadmap.sh
 *   **How to Use**: Navigate to the `CookieConsent` directory and open `index.html`.
 *   **Learn More**: [Cookie Consent README](CookieConsent/README.md)
 
