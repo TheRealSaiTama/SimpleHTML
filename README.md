@@ -3,7 +3,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/TheRealSaiTama/SimpleHTML?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/TheRealSaiTama/SimpleHTML?style=social)
 ![License](https://img.shields.io/badge/license-GPL--3.0-blue)
-![Projects](https://img.shields.io/badge/projects-20+-brightgreen)
+![Projects](https://img.shields.io/badge/projects-21+-brightgreen)
 
 ## 🚀 Welcome to My Coding Journey
 
@@ -18,13 +18,27 @@ This repository is a curated collection of web development projects that showcas
 
 | Project | Description | Skills Demonstrated |
 |---------|-------------|---------------------|
-| **[Tabs Component](#20-tabs-component)** | A lightweight, customizable tabs interface with a clean, minimalist design | JS, CSS Transitions, DOM Manipulation |
+| **[Cookie Consent](#21-cookie-consent)** | A responsive cookie consent popup with preference storage | Cookies API, Animations, User Preferences |
+| **[Tabs Component](#20-tabs-component)** | A lightweight, customizable tabs interface with a clean design | Vanilla JS, CSS Transitions, DOM Manipulation |
 | **[Tooltip UI](#19-tooltip-ui)** | A sleek implementation of tooltips with smooth transitions | CSS Animations, Responsive Design |
 | **[GitHub Profile Viewer](#16-githubprofileviewer)** | A tool to visualize GitHub profile statistics | API Integration, Async JavaScript |
 | **[Expense Tracker](#15-expensetracker)** | An application to track and categorize expenses | State Management, Data Visualization |
-| **[Web Branding Project](#10-web-branding-project)** | A modern web page for a web agency | Tailwind CSS, Responsive Design |
 
 ## 📚 Full Project Catalog
+
+### 21. Cookie Consent
+*   **Description**: An elegant cookie consent popup with user preference storage.
+*   **Key Features**: 
+    - 🚀 Lightweight and responsive design
+    - 🎨 Smooth animations and transitions
+    - 🔒 Cookie storage for user preferences
+    - 🔄 Remembers user choice for 30 days
+    - 📱 Mobile-friendly interface
+    - 🎭 Font Awesome icons integration
+*   **How to Use**: Navigate to the `CookieConsent` directory and open `index.html`.
+*   **Learn More**: [Cookie Consent README](CookieConsent/README.md)
+
+---
 
 ### 20. Tabs Component
 *   **Description**: A lightweight, customizable tabs interface built with vanilla JavaScript.
@@ -221,7 +235,7 @@ git clone https://github.com/TheRealSaiTama/SimpleHTML.git
 cd SimpleHTML
 
 # Choose any project folder
-cd Tabs
+cd CookieConsent
 
 # Open in your browser
 open index.html  # or double-click the file in your file explorer
@@ -242,7 +256,8 @@ SimpleHTML Project Timeline
 │
 ├─ Q1 2024: Advanced UI & API Integration (Projects 16-19)
 │
-└─ Q2 2024: Latest Addition - Tabs Component
+├─ Q2 2024: Component Development (Projects 20-21)
+│  └─ Tabs Component & Cookie Consent
 ```
 
 ## 🔮 Future Roadmap
