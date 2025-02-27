@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Consent</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #cookie-consent-popup {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+            opacity: 0;
+            transform: translateY(20px);
+            width: 350px;
+            text-align: center;
+        }
+        #cookie-consent-popup.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        #cookie-consent-popup p {
+            margin: 0 0 10px;
+            color: #333;
+            font-size: 14px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            margin: 10px 5px;
+            transition: background-color 0.3s ease;
+            font-size: 14px;
+            display: inline-block;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        button.decline {
+            background-color: #dc3545;
+        }
+        button.decline:hover {
+            background-color: #c82333;
+        }
+        .icon {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cookie Consent</h1>
+    <p>Many websites display a cookie consent popup to inform users about the use of cookies and to obtain their consent. In this project, you will create a simple cookie consent popup that appears when the user visits the page. The popup will include a message and a button to accept the consent.</p>
+    <script>
+        function createCookieConsentPopup() {
+            const popup = document.createElement('div');
+            popup.id = 'cookie-consent-popup';
+            popup.innerHTML = `
+                <p><i class="fas fa-info-circle icon"></i>This website uses cookies to ensure you get the best experience on our website.</p>
+                <button id="accept-cookies"><i class="fas fa-check icon"></i>Accept</button>
+                <button id="decline-cookies" class="decline"><i class="fas fa-times icon"></i>Decline</button>
+            `;
+            document.body.appendChild(popup);
+            setTimeout(() => popup.classList.add('show'), 10);
+            document.getElementById('accept-cookies').addEventListener('click', () => {
+                setCookie('cookie_consent', 'accepted', 30);
+                document.body.removeChild(popup);
+            });
+            document.getElementById('decline-cookies').addEventListener('click', () => {
+                setCookie('cookie_consent', 'declined', 30);
+                document.body.removeChild(popup);
+            });
+        }
+        function setCookie(name, value, days) {
+            const date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            const expires = "expires=" + date.toUTCString();
+            document.cookie = name + "=" + value + ";" + expires + ";path=/";
+        }
+        function checkCookieConsent() {
+            const name = "cookie_consent=";
+            const decodedCookie = decodeURIComponent(document.cookie);
+            const cookiesArray = decodedCookie.split(';');
+            for (let i = 0; i < cookiesArray.length; i++) {
+                let cookie = cookiesArray[i].trim();
+                if (cookie.indexOf(name) === 0) {
+                    return cookie.substring(name.length, cookie.length);
+                }
+            }
+            return "";
+        }
+        window.onload = function() {
+            if (checkCookieConsent() === "") {
+                createCookieConsentPopup();
+            }
+        };
+    </script>
+</body>
+</html>
