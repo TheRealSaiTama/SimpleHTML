@@ -3,7 +3,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/TheRealSaiTama/SimpleHTML?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/TheRealSaiTama/SimpleHTML?style=social)
 ![License](https://img.shields.io/badge/license-GPL--3.0-blue)
-![Projects](https://img.shields.io/badge/projects-21+-brightgreen)
+![Projects](https://img.shields.io/badge/projects-22+-brightgreen)
 
 ## 🚀 Welcome to My Coding Journey
 
@@ -18,13 +18,58 @@ This repository is a curated collection of web development projects that showcas
 
 | Project | Description | Skills Demonstrated |
 |---------|-------------|---------------------|
+| **[Restricted Text Area](#22-restricted-text-area)** | A sleek, interactive text input with real-time validation | Character Limit, Visual Feedback, Real-time Validation |
 | **[Cookie Consent](#21-cookie-consent)** | A responsive cookie consent popup with preference storage | Cookies API, Animations, User Preferences |
 | **[Tabs Component](#20-tabs-component)** | A lightweight, customizable tabs interface with a clean design | Vanilla JS, CSS Transitions, DOM Manipulation |
 | **[Tooltip UI](#19-tooltip-ui)** | A sleek implementation of tooltips with smooth transitions | CSS Animations, Responsive Design |
 | **[GitHub Profile Viewer](#16-githubprofileviewer)** | A tool to visualize GitHub profile statistics | API Integration, Async JavaScript |
-| **[Expense Tracker](#15-expensetracker)** | An application to track and categorize expenses | State Management, Data Visualization |
 
 ## 📚 Full Project Catalog
+
+### 22. Restricted Text Area
+<div align="center">
+  <img src="RestrictedTextArea/screenshot.png" alt="Restricted Text Area Demo" width="600px" style="box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); border-radius: 8px; transform: perspective(1000px) rotateX(5deg) rotateY(-2deg); margin: 20px 0;" />
+</div>
+
+*   **Description**: A sleek, interactive text area component with character count restriction.
+*   **Key Features**: 
+    - ⚡ Real-time character countdown
+    - 🎨 Visual feedback with color changes
+    - 🛑 Character limit enforcement (200 characters)
+    - ✨ Clean, modern design with elegant transitions
+    - 📱 Responsive layout that works on all devices
+    - 🔄 Instant border color changes based on input length
+*   **Technologies**: Pure HTML5, CSS3, and Vanilla JavaScript
+*   **Inspiration**: [Restricted Text Area Project](https://roadmap.sh/projects/restricted-textarea) on roadmap.sh
+*   **How to Use**: Navigate to the `RestrictedTextArea` directory and open `index.html`.
+*   **Learn More**: [Restricted Text Area README](RestrictedTextArea/README.md)
+
+<div align="center">
+  <table style="border: none; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); border-radius: 8px; overflow: hidden; background: linear-gradient(145deg, #f6f9fc 0%, #eef1f5 100%);">
+    <tr>
+      <td style="padding: 15px; border: none;">
+        <h4>🔍 Implementation Highlights</h4>
+        <ul>
+          <li>Dynamic character counting with event listeners</li>
+          <li>Seamless color transitions for visual feedback</li>
+          <li>Intelligent input validation and truncation</li>
+          <li>Clean, minimalist UI for enhanced user experience</li>
+        </ul>
+      </td>
+      <td style="padding: 15px; border: none;">
+        <h4>💫 Technical Excellence</h4>
+        <ul>
+          <li>No external dependencies</li>
+          <li>Performance-optimized event handling</li>
+          <li>Accessible design practices</li>
+          <li>Cross-browser compatibility</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
 
 ### 21. Cookie Consent
 *   **Description**: An elegant cookie consent popup with user preference storage.
@@ -236,7 +281,7 @@ git clone https://github.com/TheRealSaiTama/SimpleHTML.git
 cd SimpleHTML
 
 # Choose any project folder
-cd CookieConsent
+cd RestrictedTextArea
 
 # Open in your browser
 open index.html  # or double-click the file in your file explorer
@@ -259,6 +304,9 @@ SimpleHTML Project Timeline
 │
 ├─ Q2 2024: Component Development (Projects 20-21)
 │  └─ Tabs Component & Cookie Consent
+│
+├─ Q3 2024: Interactive UI Elements (Project 22)
+│  └─ Restricted Text Area
 ```
 
 ## 🔮 Future Roadmap
