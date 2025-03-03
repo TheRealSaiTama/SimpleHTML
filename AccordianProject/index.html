@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-black flex justify-center items-center min-h-screen">
+<div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-2xl">
+    <h1 class="text-2xl font-semibold mb-2">Frequently Asked Questions</h1>
+    <p class="text-gray-600 mb-4">Here are some of the frequently asked questions</p>
+
+    <div class="space-y-4">
+        <div>
+            <button class="w-full text-left bg-black text-white p-4 rounded-lg flex justify-between items-center" onclick="toggleAccordion(this)">
+                <span>What is roadmap.sh?</span>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="mt-2 p-4 border rounded-lg hidden">
+                <p>roadmap.sh is a community effort to create learning paths, guides, project ideas and other similar content to help developers grow in their careers.</p>
+            </div>
+        </div>
+
+        <div>
+            <button class="w-full text-left bg-black text-white p-4 rounded-lg flex justify-between items-center" onclick="toggleAccordion(this)">
+                <span>What are the plans for roadmap.sh?</span>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="mt-2 p-4 border rounded-lg hidden">
+                <p>Details about the plans for roadmap.sh.</p>
+            </div>
+        </div>
+        <div>
+            <button class="w-full text-left bg-black text-white p-4 rounded-lg flex justify-between items-center" onclick="toggleAccordion(this)">
+                <span>How is roadmap.sh built?</span>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="mt-2 p-4 border rounded-lg hidden">
+                <p>Information on how roadmap.sh is built.</p>
+            </div>
+        </div>
+        <div>
+            <button class="w-full text-left bg-black text-white p-4 rounded-lg flex justify-between items-center" onclick="toggleAccordion(this)">
+                <span>Can I use roadmap.sh in my team?</span>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="mt-2 p-4 border rounded-lg hidden">
+                <p>Details on using roadmap.sh in a team.</p>
+            </div>
+        </div>
+        <div>
+            <button class="w-full text-left bg-black text-white p-4 rounded-lg flex justify-between items-center" onclick="toggleAccordion(this)">
+                <span>How can I create custom roadmaps?</span>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="mt-2 p-4 border rounded-lg hidden">
+                <p>Instructions on creating custom roadmaps.</p>
+            </div>
+        </div>
+        <div>
+            <button class="w-full text-left bg-black text-white p-4 rounded-lg flex justify-between items-center" onclick="toggleAccordion(this)">
+                <span>Is roadmap.sh really 7th most starred project on GitHub?</span>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="mt-2 p-4 border rounded-lg hidden">
+                <p>Information about roadmap.sh's ranking on GitHub.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function toggleAccordion(button) {
+        const content = button.nextElementSibling;
+        const icon = button.querySelector('i');
+
+        if (content.classList.contains('hidden')) {
+            content.classList.remove('hidden');
+            icon.classList.remove('fa-chevron-down');
+            icon.classList.add('fa-chevron-up');
+        } else {
+            content.classList.add('hidden');
+            icon.classList.remove('fa-chevron-up');
+            icon.classList.add('fa-chevron-down');
+        }
+    }
+</script>
+</body>
+</html>
