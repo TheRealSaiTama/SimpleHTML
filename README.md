@@ -18,6 +18,7 @@ This repository is a curated collection of web development projects that showcas
 
 | Project | Description | Skills Demonstrated |
 |---------|-------------|---------------------|
+| **[Accordian Project](#23-Accordian-Project)** |Interactive, collapsible FAQ display with smooth animations and responsibe design | Dark Theme, Icon Rotation, Tailwind CSS |
 | **[Restricted Text Area](#22-restricted-text-area)** | A sleek, interactive text input with real-time validation | Character Limit, Visual Feedback, Real-time Validation |
 | **[Cookie Consent](#21-cookie-consent)** | A responsive cookie consent popup with preference storage | Cookies API, Animations, User Preferences |
 | **[Tabs Component](#20-tabs-component)** | A lightweight, customizable tabs interface with a clean design | Vanilla JS, CSS Transitions, DOM Manipulation |
@@ -25,7 +26,43 @@ This repository is a curated collection of web development projects that showcas
 | **[GitHub Profile Viewer](#16-githubprofileviewer)** | A tool to visualize GitHub profile statistics | API Integration, Async JavaScript |
 
 ## 📚 Full Project Catalog
+---
+### Accordion FAQ Component
 
+<div align="center">
+  <img src="AccordianProject/screenshot.png" alt="Accordion FAQ Component Demo">
+</div>
+
+* **Description**: An elegant, interactive FAQ accordion component.
+* **Key Features**:
+    * ✨ Sleek Dark Theme (Black background with white text)
+    * 🚀 Smooth open/close animations
+    * 🔄 Icon rotation to indicate state (chevron icons)
+    * 📱 Fully responsive design for all devices
+    * 🎨 Font Awesome icons for scalable vectors
+* **Technologies**: HTML5, Tailwind CSS (CDN), Vanilla JavaScript, Font Awesome 5
+* **Inspiration**: [Accordian Project](https://roadmap.sh/projects/accordion) on roadmap.sh
+* **Preview**:
+    <div align="center">
+      <img src="AccordianProject/screenshotphone.png" alt="Mobile View">
+      <img src="AccordianProject/screenshot.png" alt="Desktop View">
+    </div>
+* **Implementation**: Simple JavaScript toggles content visibility and icon state.
+* **How to Use**: Open `index.html` in a modern browser.
+    ```bash
+    # Clone the repository
+    git clone [https://github.com/TheRealSaiTama/SimpleHTML.git](https://github.com/TheRealSaiTama/SimpleHTML.git)
+
+    # Navigate to the project directory
+    cd SimpleHTML/AccordianProject
+
+    # Open index.html in your browser
+    open index.html
+    ```
+* **License**: MIT License
+* **Author**: [@TheRealSaiTama](https://github.com/TheRealSaiTama)
+
+---
 ### 22. Restricted Text Area
 <div align="center">
   <img src="RestrictedTextArea/screenshot.png" alt="Restricted Text Area Demo" width="600px" style="box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); border-radius: 8px; transform: perspective(1000px) rotateX(5deg) rotateY(-2deg); margin: 20px 0;" />
