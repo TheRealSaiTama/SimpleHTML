@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flash Cards</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flashcard-container">
+      <div class="header">
+        <p class="title">Flash Cards</p>
+        <div class="progress-section">
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+          </div>
+          <span class="progress-percent">0%</span>
+          <span class="card-count">1 of 5</span>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flipper">
+          <div class="front">
+            <p class="question"></p>
+          </div>
+          <div class="back">
+            <p class="answer"></p>
+          </div>
+        </div>
+      </div>
+      <p class="instruction">
+        Click on the card or the button below to reveal the answer
+      </p>
+      <div class="navigation">
+        <button class="previous">&lt; Previous</button>
+        <button class="show-answer">SHOW ANSWER</button>
+        <button class="next">Next &gt;</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
