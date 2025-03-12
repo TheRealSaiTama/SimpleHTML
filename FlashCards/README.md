@@ -100,9 +100,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 TheRealSaiTama - [@TheRealSaiTama](https://github.com/TheRealSaiTama)
 
-Project Link: [https://github.com/TheRealSaiTama/FlashCards]([https://github.com/TheRealSaiTama/FlashCards)](https://github.com/TheRealSaiTama/SimpleHTML/tree/main/FlashCards)
+Project Link: [https://github.com/TheRealSaiTama/FlashCards](https://github.com/TheRealSaiTama/SimpleHTML/tree/main/FlashCards)
 
-Inspiration Link: https://roadmap.sh/projects/flash-cards
+Inspiration Link: [Link](https://roadmap.sh/projects/flash-cards)
 
 ---
 
