@@ -376,3 +376,9 @@ This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) 
   <p>Thank you for exploring my web development journey! 🙏</p>
   <p>Connect with me on <a href="https://github.com/TheRealSaiTama">GitHub</a> for more exciting projects.</p>
 </div>
+
+
+## Other Projects:
+Links:
+
+1. https://roadmap.sh/projects/flash-cards
