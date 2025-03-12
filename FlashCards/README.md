@@ -102,6 +102,8 @@ TheRealSaiTama - [@TheRealSaiTama](https://github.com/TheRealSaiTama)
 
 Project Link: [https://github.com/TheRealSaiTama/FlashCards](https://github.com/TheRealSaiTama/FlashCards)
 
+Inspiration Link: https://roadmap.sh/projects/flash-cards
+
 ---
 
 <div align="center">
