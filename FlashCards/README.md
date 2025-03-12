@@ -11,7 +11,7 @@
 
 **Interactive flashcards application for effective learning**
 
-[View Demo](https://therealsaitama.github.io/FlashCards) • [Report Bug](https://github.com/TheRealSaiTama/FlashCards/issues) • [Request Feature](https://github.com/TheRealSaiTama/FlashCards/issues)
+• [Report Bug](https://github.com/TheRealSaiTama/FlashCards/issues) • [Request Feature](https://github.com/TheRealSaiTama/FlashCards/issues)
 
 </div>
 
@@ -41,7 +41,7 @@
 1. Clone the repository
 
    ```sh
-   git clone https://github.com/TheRealSaiTama/FlashCards.git
+   git clone [https://github.com/TheRealSaiTama/FlashCards.git](https://github.com/TheRealSaiTama/SimpleHTML/tree/main/FlashCards)
    ```
 
 2. Navigate to the project directory
@@ -100,7 +100,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 TheRealSaiTama - [@TheRealSaiTama](https://github.com/TheRealSaiTama)
 
-Project Link: [https://github.com/TheRealSaiTama/FlashCards](https://github.com/TheRealSaiTama/FlashCards)
+Project Link: [https://github.com/TheRealSaiTama/FlashCards]([https://github.com/TheRealSaiTama/FlashCards)](https://github.com/TheRealSaiTama/SimpleHTML/tree/main/FlashCards)
 
 Inspiration Link: https://roadmap.sh/projects/flash-cards
 
